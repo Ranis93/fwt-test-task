@@ -1,0 +1,38 @@
+.wrapper {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;    
+  }
+  
+  .pic {
+    position: relative;
+    padding: 10px 0px 0px 10px;
+  }
+    .pic img {
+      width: 360px;
+      height: 275px;
+      border-radius: 8px;
+    }
+    .pic img:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+  
+  .pic .text {
+    display: inline-block; 
+    position: absolute; 
+    bottom: 5px; 
+    left: 9px; 
+    right: 0px; 
+    background-color: rgba(255, 255, 255, 0.75); 
+    padding: 5px 0px 5px 20px;
+    border-radius: 0 0 8px 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #000000;
+  }
